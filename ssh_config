@@ -1,0 +1,3 @@
+# Somewhat insecure!!
+Host *
+	StrictHostKeyChecking no
