@@ -10,7 +10,7 @@ RUN apt-get install -y software-properties-common curl
 RUN apt-get update && \
 	apt-get install -y gawk wget git-core diffstat unzip texinfo gcc-multilib xz-utils debianutils iputils-ping libsdl1.2-dev && \
 	apt-get install -y xutils-dev xterm build-essential chrpath socat cpio python python3 python3-pip python3-pexpect libssl-dev && \
-	apt-get install -y tofrodos iproute net-tools ncurses-dev tftpd zlib1g-dev zlib1g-dev:i386 flex bison lib32ncursesw5 lib32gomp1 xvfb autoconf libtool
+	apt-get install -y subversion tofrodos iproute net-tools ncurses-dev tftpd zlib1g-dev zlib1g-dev:i386 flex bison lib32ncursesw5 lib32gomp1 xvfb autoconf libtool
 
 
 # Add OpenSSH
